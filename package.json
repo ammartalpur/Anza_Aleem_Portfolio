@@ -5,8 +5,8 @@
   "description": "A clean, beautiful and responsive portfolio",
   "source": "index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
+    "start": "parcel index.html",
+  "build": "parcel build index.html --dist-dir build",
     "dev": "parcel index.html"
   },
   "repository": {
